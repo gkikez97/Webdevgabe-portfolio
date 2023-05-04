@@ -1,0 +1,96 @@
+
+body{
+    background-image: url(https://th.bing.com/th/id/R.c0119c94fe4969eb2324862417bacb72?rik=tUIM3bKxePZZfg&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+h1{
+    font-size: 90px;
+    font-family: 'Bayon', sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#author{
+    position: relative;
+    top:170px;
+    left: 30px;
+   text-align: center;
+    font-family: 'Bayon', sans-serif;
+    font-size: 33px;
+    color:black;
+}
+
+p{
+    position: relative;
+    left: 40%;
+    top: 190px;
+    width: 25%;
+    text-align: center;
+    font-size:15px;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: white;
+}
+
+button{
+    position: relative;
+    float:right;
+    width: 12%;
+    bottom: 550px;
+    right: 12%;
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 45px;
+    font-family: 'Bayon', sans-serif;
+    word-spacing: 0px;
+    color:white;
+}
+
+button:hover{
+    display: block;
+    font-size:55px;
+    border-color: rgb(255, 228, 145);
+    border-style: solid;
+    transition: background 500ms ease-in, 500ms ease-out;
+    background-color:rgb(221, 162, 0);
+    box-shadow: 5px 2px 50px 0px rgb(221, 162, 0);
+}
+
+
+footer{
+    font-size: 25px;
+    color: white;
+    margin-top: 15%;
+}
+
+@media only screen and (max-width: 390px){
+    body {
+        background-size: 700px 530%;
+    }
+
+    h1 {
+        position: absolute;
+        bottom: 70%;
+        font-size: 50px;
+        
+    }
+
+    button{
+        position: absolute;
+        width: 80%;
+        font-size: 35px;
+    }
+
+    p{
+        position: absolute;
+        top:39%;
+        font-size: 10px;
+    }
+    
+}
