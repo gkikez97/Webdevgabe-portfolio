@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "assets/css/style.css">
+</head>
+<body>
+    #app
+  transition(name="page", :duration="1300")
+    .page(:is="page" @change-page="onChangePage")
+    
+script#start(type="text/x-template")
+  .start
+    .inner 
+      h1.title.enter-1 Page Transition Demo
+      .button-wrapper.enter-2
+        button.button.button-start(
+          type="button" 
+          @click="$emit('change-page', 'next')"
+        ) 
+          span.button-text Start!
+    
+script#next(type="text/x-template")
+  .next
+    .inner
+      h1.title.enter-1 You may want to use...
+      ul.next-list
+        li.enter-2 &lt;transition&gt; built-in component of Vue.js
+        li.enter-3 CSS Transition/Animation for simple animation combinations
+        li.enter-4 JavaScript hooks for complex animation      
+      .button-wrapper.enter-5
+        button.button.button-next(
+          type="button"
+          @click="$emit('change-page', 'start')"
+        )
+          span.button-text Back
+
+          <script src = "assets/js/script.js"></script>
+</body>
+</html>
