@@ -17,7 +17,7 @@ a{
 
 
 
-#author{
+#qoute{
     position: relative;
     top:170px;
     left: 30px;
@@ -25,17 +25,6 @@ a{
     font-family: 'Bayon', sans-serif;
     font-size: 33px;
     color:black;
-}
-
-p{
-    position: relative;
-    left: 40%;
-    top: 190px;
-    width: 25%;
-    text-align: center;
-    font-size:15px;
-    font-family: 'Rubik Mono One', sans-serif;
-    color: white;
 }
 
 button{
