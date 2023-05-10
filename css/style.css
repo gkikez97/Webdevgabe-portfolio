@@ -1,6 +1,6 @@
 
 body{
-    background-image: url(https://th.bing.com/th/id/R.c0119c94fe4969eb2324862417bacb72?rik=tUIM3bKxePZZfg&pid=ImgRaw&r=0);
+    background-image: url(https://th.bing.com/th/id/R.f1837736d507a2666762717813ee41c8?rik=dnL3xU%2fzGG5K9Q&pid=ImgRaw&r=0);
     background-size: cover;
 }
 
@@ -9,55 +9,88 @@ h1{
     top: -5%;
     font-size: 90px;
     font-family: 'Bayon', sans-serif;
-    color:rgb(0, 0, 0);
-    text-shadow: 5px 0px white;
+    color:rgb(221, 0, 217);
+    text-shadow: 5px 5px white;
+}
+
+.btn-hover.color-7 {
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 300px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Bayon', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 65px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+#contactme{
+    position: absolute;
+    left: 80%;
+    top: 0%;
+    font-size: 90px;
+    font-family: 'Bayon', sans-serif;
+    text-align: center;
 }
 
 a{
     color: white;
     text-decoration: none;
 }
-
 #author{
     position: absolute;
     top:70%;
     left: 35%;
     font-size: 50px;
     font-family: 'Bayon', sans-serif;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 #qoute{
     position: absolute;
-    top: 56%;
+    top: 36%;
     left: 30%;
    text-align: center;
     font-family: 'Bayon', sans-serif;
     font-size: 33px;
     color:rgb(255, 255, 255);
-}
-
-button{
-    position: relative;
-    float:right;
-    width: 12%;
-    right: 12%;
-    border-color: transparent;
-    background-color: transparent;
-    font-size: 45px;
-    font-family: 'Bayon', sans-serif;
-    word-spacing: 0px;
-    color:white;
-}
-
-button:hover{
-    display: block;
-    font-size:55px;
-    border-color: rgb(255, 228, 145);
-    border-style: solid;
-    transition: background 500ms ease-in, 500ms ease-out;
-    background-color:rgb(221, 162, 0);
-    box-shadow: 5px 2px 50px 0px rgb(221, 162, 0);
 }
 
 
