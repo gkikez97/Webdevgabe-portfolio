@@ -1,16 +1,137 @@
 
 body{
     background-image: url(https://th.bing.com/th/id/R.f1837736d507a2666762717813ee41c8?rik=dnL3xU%2fzGG5K9Q&pid=ImgRaw&r=0);
-    background-size: cover;
+    background-size: 100%;
 }
 
-h1{
+.heading{
     position: absolute;
     top: -5%;
-    font-size: 90px;
+    font-size: 50px;
     font-family: 'Bayon', sans-serif;
     color:rgb(221, 0, 217);
     text-shadow: 5px 5px white;
+}
+
+#heading-1{
+      position: absolute;
+top: -5%;
+font-size: 50px;
+font-family: 'Bayon', sans-serif;
+color:rgb(255, 149, 0);
+text-shadow: 5px 5px white;
+} 
+
+.arrows {
+	width: 60px;
+	height: 28%;
+	position: absolute;
+	left: 4%;
+	margin-left: -30px;
+	top: 90%;
+}
+
+
+.arrows-2 {
+	width: 60px;
+	height: 28%;
+	position: absolute;
+	left: 96%;
+	margin-left: -30px;
+	top: 90%;
+}
+
+.arrows-3 {
+    position: absolute;
+    left:48%;
+	width: 60px;
+	height: 28%;
+	top: 90%;
+}
+
+.arrows path {
+	stroke: #ffff00;
+	fill: transparent;
+	stroke-width: 10px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+.arrows-2 path {
+	stroke: #ffff00;
+	fill: transparent;
+	stroke-width: 10px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+.arrows-3 path {
+	stroke: #ffff00;
+	fill: transparent;
+	stroke-width: 10px;
+	animation: arrow 2s infinite;
+	-webkit-animation: arrow 2s infinite; 
+}
+
+@keyframes arrow
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+@-webkit-keyframes arrow /*Safari and Chrome*/
+{
+0% {opacity:0}
+40% {opacity:1}
+80% {opacity:0}
+100% {opacity:0}
+}
+
+.arrows path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+.arrows-2 path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows-2 path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows-2 path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
+}
+
+.arrows-3 path.a1 {
+	animation-delay:-1s;
+	-webkit-animation-delay:-1s; /* Safari 和 Chrome */
+}
+
+.arrows-3 path.a2 {
+	animation-delay:-0.5s;
+	-webkit-animation-delay:-0.5s; /* Safari 和 Chrome */
+}
+
+.arrows-3 path.a3 {	
+	animation-delay:0s;
+	-webkit-animation-delay:0s; /* Safari 和 Chrome */
 }
 
 .btn-hover.color-7 {
@@ -25,7 +146,16 @@ h1{
 }
 
 .buttons {
-    margin: 10%;
+    position:absolute;
+    left: 68%;
+    top: 19%;
+    text-align: center;
+}
+
+.button-2 {
+    position:absolute;
+    left: 84%;
+    top: 19%;
     text-align: center;
 }
 
@@ -93,6 +223,12 @@ a{
     color:rgb(255, 255, 255);
 }
 
+.image-1{
+    position: absolute;
+    right: 10%;
+    top: 113%;
+    width: 90%;
+}
 
 footer{
     font-size: 25px;
