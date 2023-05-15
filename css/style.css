@@ -1,7 +1,7 @@
 
 body{
     background-image: url(https://th.bing.com/th/id/R.f1837736d507a2666762717813ee41c8?rik=dnL3xU%2fzGG5K9Q&pid=ImgRaw&r=0);
-    background-size: 100%;
+    background-size:cover;
 }
 
 .heading{
@@ -26,9 +26,9 @@ text-shadow: 5px 5px white;
 	width: 60px;
 	height: 28%;
 	position: absolute;
-	left: 4%;
+	right: 23%;
 	margin-left: -30px;
-	top: 90%;
+	top: 10%;
 }
 
 
@@ -36,18 +36,12 @@ text-shadow: 5px 5px white;
 	width: 60px;
 	height: 28%;
 	position: absolute;
-	left: 96%;
+	right: 7%;
 	margin-left: -30px;
-	top: 90%;
+	top: 10%;
 }
 
-.arrows-3 {
-    position: absolute;
-    left:48%;
-	width: 60px;
-	height: 28%;
-	top: 90%;
-}
+
 
 .arrows path {
 	stroke: #ffff00;
@@ -65,13 +59,7 @@ text-shadow: 5px 5px white;
 	-webkit-animation: arrow 2s infinite; 
 }
 
-.arrows-3 path {
-	stroke: #ffff00;
-	fill: transparent;
-	stroke-width: 10px;
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
-}
+
 
 @keyframes arrow
 {
@@ -223,18 +211,15 @@ a{
     color:rgb(255, 255, 255);
 }
 
-.image-1{
-    position: absolute;
-    right: 10%;
-    top: 113%;
-    width: 90%;
-}
 
 footer{
-    font-size: 25px;
-    color: white;
-    margin-top: 15%;
+    position: absolute;
+    bottom: 0%;
+    left: 42%;
+    font-size:20px;
+    color:#fff;
 }
+
 
 @media only screen and (max-width: 390px){
     body {
