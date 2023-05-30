@@ -1,5 +1,7 @@
+
+
 body {
-    background-image: url(https://th.bing.com/th/id/R.4739662775699338a0eb08ddf243f3df?rik=E08eYeg35yieZA&pid=ImgRaw&r=0);
+    background-image: url(https://i.pinimg.com/originals/0e/b1/56/0eb15636563ecc2920056a5dd6e496c5.gif);
     background-size: cover;
 }
 
@@ -13,40 +15,43 @@ h1{
     position: relative;
     text-align: center;
     font-size: 70px;
-    color: rgb(0, 255, 255);
-    font-family: 'Fugaz One', cursive;
-    text-shadow: 5px  2px 4px rgb(255, 0, 162);
+    color: white;
+    font-family: 'Staatliches', cursive;
+    text-shadow: 5px  2px 4px rgb(255, 0, 0);
 }
 
 p{
     position: relative;
+    left: 25%;
     display: block;
+    width: 50%;
     border-style: solid;
     background-color: black;
     text-align: center;
     font-size: 50px;
-    color: rgb(0, 255, 255);
-    font-family: 'Fugaz One', cursive;
-    text-shadow: 5px  2px 4px rgb(255, 0, 162);
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+    text-shadow: 5px  2px 4px rgb(255, 0, 0);
 }
 
 
 button{
     font-size: 60px;
-    font-family: 'Limelight', cursive;
-    text-shadow: 5px  2px 4px rgb(255, 0, 162);
+    font-family: 'Staatliches', cursive;
+    text-shadow: 5px  2px 4px rgb(255, 0, 0);
     background-color: transparent;
-    border-style: solid;
-    border-color: cyan;
+    border-style: none;
 }
 
 a{
+    display: inline-flex;
+    
     color: rgb(255, 255, 255);
-    text-decoration: none;
+    text-decoration:none;
 }
 
 button:hover{
-    background-color:rgb(0, 0, 0);
+    
     transition: linear .4s;
-    text-shadow: 5px  2px 4px (255, 0, 162);
+    
 }
