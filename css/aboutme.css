@@ -1,3 +1,52 @@
-body{
-    background-image: 
+body {
+    background-image: url(https://th.bing.com/th/id/R.4739662775699338a0eb08ddf243f3df?rik=E08eYeg35yieZA&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+
+#logo {
+    position: absolute;
+    top:0%;
+    right: 5%;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(0, 255, 255);
+    font-family: 'Fugaz One', cursive;
+    text-shadow: 5px  2px 4px rgb(255, 0, 162);
+}
+
+p{
+    position: relative;
+    display: block;
+    border-style: solid;
+    background-color: black;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 255, 255);
+    font-family: 'Fugaz One', cursive;
+    text-shadow: 5px  2px 4px rgb(255, 0, 162);
+}
+
+
+button{
+    font-size: 60px;
+    font-family: 'Limelight', cursive;
+    text-shadow: 5px  2px 4px rgb(255, 0, 162);
+    background-color: transparent;
+    border-style: solid;
+    border-color: cyan;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+button:hover{
+    background-color:rgb(0, 0, 0);
+    transition: linear .4s;
+    text-shadow: 5px  2px 4px (255, 0, 162);
 }
