@@ -51,7 +51,8 @@ a{
 }
 
 button:hover{
-    
-    transition: linear .4s;
-    
+    border-style:solid;
+    border-color: rgb(255, 255, 255);
+    background-image: url(https://media1.giphy.com/media/W0RPj8pyB2xvTnqUT0/200w.gif?cid=6c09b9524jqzilq71a9aj4tl066e1hehkjslbhy71ms0sprq&ep=v1_gifs_search&rid=200w.gif&ct=g);
+    border-width: 5px;
 }
