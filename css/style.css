@@ -145,7 +145,9 @@ text-shadow: 5px 5px white;
     left: 84%;
     top: 19%;
     text-align: center;
+    display: inline-block;
 }
+
 
 .btn-hover {
     width: 300px;
@@ -189,9 +191,11 @@ text-shadow: 5px 5px white;
 }
 
 a{
+    padding: 0;
     color: white;
     text-decoration: none;
 }
+
 #author{
     position: absolute;
     top:70%;
@@ -211,6 +215,14 @@ a{
     color:rgb(255, 255, 255);
 }
 
+#stamp{
+    font-size:48px;
+    font-family: 'Smooch', cursive;
+    margin-top: 41%;
+    color:rgb(0, 0, 122);
+    text-shadow: 5px 5px 5px #f80063;
+    
+}
 
 footer{
     position: absolute;
